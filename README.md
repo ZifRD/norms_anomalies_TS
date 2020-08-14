@@ -29,17 +29,4 @@
 
 ![Figure 6](https://github.com/ZifRD/norms_anomalies_TS/blob/master/pics/Figure%206.PNG)
 
-7. АКФ для отстатка в модели с гармониками с периодами 65, 17, 7.5 и 5.5 лет (a), для варианта с добавленнной компонентой с периодом 3.3 года (b), восстановление компонент (периоды: 5.5 лет, 7.5 лет, 17 лет, 3.3 года).
 
-![Figure 7](https://github.com/ZifRD/norms_anomalies_TS/blob/master/pics/Figure%207.PNG)
-
-<table>
-  <tr>
-    <td> <img src="Figure 6. Additive model periods.png"  alt="1" width = 360px height = 640px ></td>
-    <td><img src="Figure 6. Additive model periods.png" alt="2" width = 360px height = 640px></td>
-   </tr> 
-   <tr>
-      <td><img src="Figure 6. Additive model periods.png" alt="3" width = 360px height = 640px></td>
-      <td><img src="Figure 6. Additive model periods.png" alt="4" width = 360px height = 640px></td>
-  </tr>
-</table>
