@@ -2,6 +2,8 @@
 
 Материалы для статьи с рабочим названием "ИЗМЕНЧИВОСТЬ АНОМАЛИЙ ТЕМПЕРАТУРЫ И СОЛЕНОСТИ ВОД В АВГУСТЕ-СЕНТЯБРЕ НА РАЗРЕЗЕ «КОЛЬСКИЙ МЕРИДИАН» ЗА ПЕРИОД С 1970 ПО 2019 ГГ." (Моисеев Д.В., Запорожцев И.Ф., Максимовская Т.М., план завершения - сентябрь 2020 г.). Веб-приложение и набор утилит, которые обрабатывают данные World Ocean Database и ICES для обновления референсных значений океанографических характеристик (норм и аномалий) на разрезе "Кольский Меридиан" и построения отчетных изображений для лаб. ОиР ММБИ РАН. 
 
+![Превью](https://github.com/ZifRD/norms_anomalies_TS/blob/master/pics/Area.png)
+
 Входные данные: WOD (World Ocean Database 2018, https://www.nodc.noaa.gov/OC5/SELECT/dbsearch/dbsearch.html), ICES (oceanographic database of the International Council for the Exploration of the Sea, https://www.ices.dk/data/data-portals/Pages/ocean.aspx) и локальные данные ММБИ (25 экспедиций 2000-2019 гг., данные которых отсутствуют в WOD и ICES). Использованы 12579 станций (вертикальных профилей) для температуры и 7023 для солёности. Период: 1970-2019 гг.
 
 Значения WOD извлекаются из ASCII-формата, представленого на портале NOAA, и переформатируются в текстовый табличный формат (CSV со столбцами для месяца, года и строки "ключ-значений" в виде пар "горизонт-измеренная величина". Finally, reconstructed gridded data are obtained (vertical step is 5 m, horizontal step is 0.5 deg. along the Kola Transect). ICES data are in text format too. Local expedition dataset, a set of .xlsx files with common structure (with latitude, longitude, depth and measured values temperature and salinity). ICES and local expedition datasets are treated the same way as WOD files. 
